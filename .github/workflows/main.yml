@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
         with:
-          github_token: ${{ secrets.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 }}
+          github_token: ${{ secrets.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 }}
           public_key: ${{ secrets.PUBLIC_KEY }}
           private_key: ${{ secrets.PRIVATE_KEY }}
           source: ./
